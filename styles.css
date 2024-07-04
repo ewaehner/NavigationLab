@@ -1,0 +1,32 @@
+.logo img {
+  width: 50px;
+  padding: 12px;
+}
+body {
+  background-color: rgb(200, 217, 219);
+  }
+nav a{
+  color: white;
+  text-decoration: none;
+}
+.navbar {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(34, 38, 66);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+a:hover{
+  color:rgb(7, 98, 159);
+  text-decoration: underline;
+}
+
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
