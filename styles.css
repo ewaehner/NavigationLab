@@ -34,3 +34,30 @@ a:hover {
   color: rgb(196, 27, 27);
   text-decoration: underline;
 }
+
+.search-input {
+  margin-left: auto;
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.searchicon {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+.search-input {
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+  border-radius: 4px;
+}
