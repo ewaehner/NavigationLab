@@ -3,30 +3,34 @@
   padding: 12px;
 }
 body {
+  margin: 0;
   background-color: rgb(200, 217, 219);
-  }
-nav a{
+}
+nav a {
   color: white;
   text-decoration: none;
 }
 .navbar {
-  display: flex; 
-  justify-content: space-between;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
-  background-color: rgb(34, 38, 66);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  background: rgb(21, 22, 29);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-a:hover{
-  color:rgb(7, 98, 159);
+.nav-links {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+}
+a:hover {
+  color: rgb(196, 27, 27);
   text-decoration: underline;
-}
-
-.navbar input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
 }
